@@ -1,8 +1,8 @@
 {
-  "name": "truffle-source-verify",
+  "name": "truffle-heco-verify",
   "version": "0.0.6",
   "description": "Verify your deployed smart contracts on Etherscan/Blockscout from the Truffle CLI",
-  "repository": "https://github.com/olivdb/truffle-source-verify",
+  "repository": "https://github.com/wanyvic/truffle-source-verify",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint ."
@@ -16,7 +16,7 @@
     "blockscout",
     "verify"
   ],
-  "author": "@olivdb",
+  "author": "@wanyvic",
   "license": "MIT",
   "dependencies": {
     "axios": "0.19.2",

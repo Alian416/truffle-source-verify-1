@@ -29,6 +29,7 @@ It extends [truffle-plugin-verify](https://github.com/rkalis/truffle-plugin-veri
 
      api_keys: {
        etherscan: "MY_API_KEY",
+       hecoinfo: 'MY_API_KEY',
      },
    };
    ```

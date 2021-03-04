@@ -5,7 +5,9 @@ const API_URLS = {
   5: 'https://api-goerli.etherscan.io/api',
   42: 'https://api-kovan.etherscan.io/api',
   56: 'https://api.bscscan.com/api',
-  97: 'https://api-testnet.bscscan.com/api'
+  97: 'https://api-testnet.bscscan.com/api',
+  128: 'https://api.hecoinfo.com/api',
+  256: 'https://api-testnet.hecoinfo.com/api'
 }
 
 const EXPLORER_URLS = {
@@ -15,7 +17,9 @@ const EXPLORER_URLS = {
   5: 'https://goerli.etherscan.io/address',
   42: 'https://kovan.etherscan.io/address',
   56: 'https://bscscan.com/address',
-  97: 'https://testnet.bscscan.com/address'
+  97: 'https://testnet.bscscan.com/address',
+  128: 'https://hecoinfo.com/address',
+  256: 'https://testnet.hecoinfo.com/address'
 }
 
 const RequestStatus = {
