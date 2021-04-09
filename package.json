@@ -1,13 +1,13 @@
 {
-  "name": "truffle-heco-verify",
+  "name": "truffle-verify",
   "version": "0.0.6",
   "description": "Verify your deployed smart contracts on Etherscan/Blockscout from the Truffle CLI",
-  "repository": "https://github.com/wanyvic/truffle-source-verify",
+  "repository": "https://github.com/Alian416/truffle-source-verify",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint ."
   },
-  "main": "verify.js",
+  "main": "blockscout.js",
   "keywords": [
     "truffle",
     "plugin",
@@ -16,10 +16,10 @@
     "blockscout",
     "verify"
   ],
-  "author": "@wanyvic",
+  "author": "@fidubit",
   "license": "MIT",
   "dependencies": {
-    "axios": "0.19.2",
+    "axios": "0.21.1",
     "cli-logger": "0.5.40",
     "delay": "4.3.0",
     "querystring": "0.2.0",
