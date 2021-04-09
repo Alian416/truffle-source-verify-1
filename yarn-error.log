@@ -1,0 +1,64 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.22.10/libexec/bin/yarn.js add -D truffle-source-verify-alain
+
+PATH: 
+  /opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/opt/local/bin:/opt/local/sbin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  15.11.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/truffle-source-verify-alain: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:66988:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:140749:22)
+      at Request.emit (node:events:378:20)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:141721:10)
+      at Request.emit (node:events:378:20)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:141643:12)
+      at Object.onceWrapper (node:events:484:28)
+      at IncomingMessage.emit (node:events:390:22)
+      at endReadableNT (node:internal/streams/readable:1307:12)
+      at processTicksAndRejections (node:internal/process/task_queues:81:21)
+
+npm manifest: 
+  {
+    "name": "truffle-verify-alain",
+    "version": "0.0.6",
+    "description": "Verify your deployed smart contracts on Etherscan/Blockscout from the Truffle CLI",
+    "repository": "https://github.com/Alian416/truffle-source-verify",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "lint": "eslint ."
+    },
+    "main": "blockscout.js",
+    "keywords": [
+      "truffle",
+      "plugin",
+      "ethereum",
+      "etherscan",
+      "blockscout",
+      "verify"
+    ],
+    "author": "@fidubit",
+    "license": "MIT",
+    "dependencies": {
+      "axios": "0.21.1",
+      "cli-logger": "0.5.40",
+      "delay": "4.3.0",
+      "querystring": "0.2.0",
+      "sol-merger": "3.1.0"
+    },
+    "devDependencies": {}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

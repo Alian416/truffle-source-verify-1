@@ -1,5 +1,5 @@
 {
-  "name": "truffle-verify",
+  "name": "truffle-verify-alain",
   "version": "0.0.6",
   "description": "Verify your deployed smart contracts on Etherscan/Blockscout from the Truffle CLI",
   "repository": "https://github.com/Alian416/truffle-source-verify",
@@ -25,5 +25,7 @@
     "querystring": "0.2.0",
     "sol-merger": "3.1.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "truffle-verify-alain": "^0.0.6"
+  }
 }
